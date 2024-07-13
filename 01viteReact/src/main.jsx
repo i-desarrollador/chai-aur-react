@@ -12,7 +12,7 @@ const reactElem = React.createElement(
     target: "_blank",
   },
   "click me to visit google"
-  // ,anotherUser //-variable if any
+  ,anotherUser //-variable if any
 );
 
 
@@ -25,7 +25,7 @@ function MyApp(){
 
 //another way
 const anotherElem=(
-  <a href='https://google.com' target="_blank">Visit Google</a>
+  <a href='https://google.com' t  arget="_blank">Visit Google</a>
 )
 ReactDOM.createRoot(document.getElementById("root")).render(
  
